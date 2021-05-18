@@ -54,4 +54,4 @@ function fillDB() {
 
 // fillDB();
 
-module.exports = { Product, fillDB}
+module.exports = { Product }
