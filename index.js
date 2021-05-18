@@ -10,8 +10,10 @@ app.use(cors());
 app.use(express.json());
 
 const { initializeDbConnection } = require("./db/db.connect");
+const { Product, fillDB} = require("./models/product.model");
 // calling mongoose connection before route handler
 initializeDbConnection();
+fillDB();
 
 app.get("/", (req, res) => {
   res.send("hello world")
