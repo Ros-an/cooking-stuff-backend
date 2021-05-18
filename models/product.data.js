@@ -18,7 +18,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -37,7 +37,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -56,7 +56,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -75,7 +75,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -94,7 +94,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -113,7 +113,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -132,7 +132,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -151,7 +151,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -170,7 +170,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -189,7 +189,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -208,7 +208,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -227,7 +227,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -246,7 +246,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -265,7 +265,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -284,7 +284,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -303,7 +303,7 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph()
+  description: faker.lorem.paragraphs()
   },
   {
     imageUrl:
@@ -322,8 +322,8 @@ const product = [
   "Ramdev",
   "MTR",
   "Goldiee",]),
-  description: faker.lorem.paragraph() },
+  description: faker.lorem.paragraphs() },
 ];
 
 
-module.exports = products;
+module.exports = product;
