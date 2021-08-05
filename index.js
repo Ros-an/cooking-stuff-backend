@@ -13,6 +13,7 @@ const { initializeDbConnection } = require("./db/db.connect");
 const productRouter = require("./routes/product.route.js");
 const userRouter = require("./routes/user.route.js");
 const cartRouter = require("./routes/cart.route.js");
+const stripeRouter = require("./routes/stripe.route.js");
 
 // calling mongoose connection before route handler
 initializeDbConnection();
@@ -20,6 +21,7 @@ initializeDbConnection();
 app.use(morgan("dev"));
 app.use("/api", productRouter);
 app.use("/api", userRouter);
+app.use("/api", stripeRouter);
 app.use("/api/cart", cartRouter);
 
 app.get("/", (req, res) => {

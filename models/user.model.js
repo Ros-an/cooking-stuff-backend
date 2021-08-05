@@ -8,7 +8,8 @@ const userSchema  = new mongoose.Schema({
     required: true,
     index: true
   },
-  wishlist: [{type: ObjectId, ref: "Product"}]
+  wishlist: [{type: ObjectId, ref: "Product"}],
+  address: String,
 }, {timestamps: true})
 
 module.exports = mongoose.model("User", userSchema);
