@@ -52,6 +52,6 @@ function fillDB() {
   }
 }
 
-fillDB();
+// fillDB();
 
 module.exports = { Product }
